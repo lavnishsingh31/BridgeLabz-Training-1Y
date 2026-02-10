@@ -1,29 +1,18 @@
-// Define the Student class
-class Student {
-    // Variables
-    int id;
-    String name;
-    int age;
-
-    // Method to display student details
-    void displayDetails() {
-		String status = "ACTIVE";
-        System.out.println("Student ID: " + id);
-        System.out.println("Student Name: " + name);
-        System.out.println("Student Age: " + age);
-        System.out.println("---------------------------");
-    }
-
-    public static void main(String[] args) {
-        // Object creation
-        Student student1 = new Student();
-
-        // Assigning values to variables
-        student1.id = 101;
-        student1.name = "John Doe";
-        student1.age = 20;
-
-        // Method call
-        student1.displayDetails();
-    }
-}
+class Student{
+	String name;
+	int id;
+	int age;
+	void display(){
+		System.out.println("your id is: "+ id);
+		System.out.println("your name is: "+ name);
+		system.out.println("your age is:"+ age);
+		
+	}
+	public static void main(String[]args){
+		Student s1 = new Student();
+		s1.id = 1001;
+		s1.name = "paarth";
+		s1.age = 19;
+		s1.display();
+	}
+        }
